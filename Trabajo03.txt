@@ -1,0 +1,8 @@
+Objeto: Es aquello que tiene atributos, metodo y se puede tener mas de uno.  
+Metodo: El medio po
+Atributo: Características que aplican al objeto solo en el caso en que el sea visible en pantalla por el usuario
+Setters:  sirve para asignar un valor inicial a un atributo, pero de forma explícita
+Getters:  sirve para tomar algun atributo antes impuesto en un setter. 
+Puntero:  es una variable que almacena la dirección de memoria de un objeto.
+Constructor: es una subrutina cuya misión es inicializar un objeto de una clase
+Git Hub: Repositorio online que permite la sincronizacion de los trabajos de programacion con una nube digital personal. 
