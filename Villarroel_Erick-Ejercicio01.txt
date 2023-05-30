@@ -1,0 +1,80 @@
+public class Menu 
+{
+    public static void main(String[] args) 
+    {
+        // Transportes
+        transporte carro = new transporte();
+        transporte barco = new transporte();
+        transporte avion = new transporte();
+        transporte bicicleta = new transporte();
+        transporte nave_espacial = new transporte();
+        
+        //Metodos Métodos: Conducir, Maniobrar, Frenar, Flotar
+
+        //Carro
+        carro.conducir();
+        carro.maniobrar();
+        carro.frenar();
+        
+        //Barco
+        barco.conducir();
+        barco.maniobrar();
+        barco.frenar();
+        
+        //Avion
+        avion.conducir();
+        avion.maniobrar();
+        avion.frenar();
+        avion.flotar();
+
+        //Bicicleta
+        bicicleta.conducir();
+        bicicleta.maniobrar();
+        bicicleta.frenar();
+
+        //Nave Espacial
+        nave_espacial.maniobrar();
+        nave_espacial.frenar();
+        nave_espacial.flotar();
+
+    }
+}
+
+
+
+//OBJETOS Y CLASES
+
+public class transporte 
+{
+    //Atributos
+    String tipo;        // Terrestre, Aereo y Marino
+    String acceso;      // Si y No
+    int velocidad;      // Numero maximo promedio
+
+
+    //Metodos
+    //Conducir
+    void conducir()
+    {
+        System.out.println("Metodo Conducir");
+    }
+
+    //Maniobrar       
+    void maniobrar()
+    {
+        System.out.println("Metodo Maniobrar");
+    }
+    
+    //Frenar
+    void frenar()
+    {
+        System.out.println("Metodo Frenar");
+    }
+    
+    //Flotar
+    void flotar()
+    {
+        System.out.println("Metodo Flotar");
+    }         
+
+}   
